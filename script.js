@@ -192,9 +192,13 @@ const PLACES = [
     type: "beach",
   },
 ];
+const img = document.createElement("img");
+img.src = "assets/images/destination-types.png";
+img.alt = "3 Destination types: city, mountains, beach";
+
 swal({
   title: "Where do you want to go?",
-  icon: "assets/images/destination-types.png",
+  icon: img,
   padding: '3rem',
   buttons: {
     city: {

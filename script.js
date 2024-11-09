@@ -195,10 +195,11 @@ const PLACES = [
 const img = document.createElement("img");
 img.src = "assets/images/destination-types.png";
 img.alt = "3 Destination types: city, mountains, beach";
+imgContainer.appendChild(img);
 
 swal({
   title: "Where do you want to go?",
-  icon: img,
+  icon: imgContainer,
   padding: '3rem',
   buttons: {
     city: {

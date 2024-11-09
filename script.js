@@ -192,6 +192,8 @@ const PLACES = [
     type: "beach",
   },
 ];
+
+const imgContainer = document.createElement("div");
 const img = document.createElement("img");
 img.src = "assets/images/destination-types.png";
 img.alt = "3 Destination types: city, mountains, beach";

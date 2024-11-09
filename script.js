@@ -195,16 +195,12 @@ const PLACES = [
 
 swal({
   title: "Where do you want to go?",
-  content: {
-    element: "div",
-    attributes: {
-      innerHTML: `
-        <img src="assets/images/destination-types.png" alt="3 Destination types: city, mountains, beach" style="width: 100%;">
-      `
-    }
-  },
+  icon: "assets/images/destination-types.png",
+  padding: '3rem',
+  buttons: {
     city: {
       text: "City",
+
       value: "city",
     },
     beach: {

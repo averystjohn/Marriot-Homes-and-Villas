@@ -120,8 +120,8 @@
   font-family: proxima-nova, arial, sans-serif;
   font-weight: 600;
   letter-spacing: 0.09rem;
-  color: #ffffff;
-  background-color: #3d3d3d;
+  color: #ffffff !important;
+  background-color: #3d3d3d !important;
 }
 
 h2 {

@@ -193,21 +193,16 @@ const PLACES = [
   },
 ];
 
-const img = document.createElement("img");
-img.src = "/assets/images/destination-types.png";
-img.alt = "3 Destination types: city, mountains, beach";
-img.style.width = "100%";
-img.style.maxWidth = "300px";
-
 swal({
   title: "Where do you want to go?",
-  content: img,
-  padding: '3rem',
-  buttons: {
-    city: {
-      text: "City",
-      value: "city",
-    },
+  content: {
+    element: "div",
+    attributes: {
+      innerHTML: `
+        <img src="assets/images/destination-types.png" alt="3 Destination types: city, mountains, beach" style="width: 100%; max-width: 300px; display: block; margin: 0 auto;">
+      `
+    }
+  },
   padding: '3rem',
   buttons: {
     city: {
